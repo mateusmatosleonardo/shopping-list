@@ -2,3 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+/* VARIABLES */
+
+:root{
+    --bg-dark-light: #333;
+    --white: #fff;
+    --font-main: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: var(--bg-dark-light);
+}
