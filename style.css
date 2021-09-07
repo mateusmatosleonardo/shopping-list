@@ -28,3 +28,15 @@ body{
     text-align: center;
     font-family: var(--font-main);
 }
+
+.list{
+    display: flex;
+    margin: 10px 0;
+    padding: 0 30px;
+}
+
+.list input[type="text"]{
+    flex: 1;
+    height: 40px;
+    padding-left: 10px;
+}
