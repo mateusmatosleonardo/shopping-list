@@ -12,6 +12,7 @@ buttonSubmit.onclick = () =>{
     })
 
     let listItems = document.querySelector('.list-items')
+    listItems.innerHTML = ""
     items.map((val)=>{
         listItems.innerHTML+=`
         <div class="list-items-single">
@@ -20,4 +21,7 @@ buttonSubmit.onclick = () =>{
         </div><!--list-items-single-->
         `
     })
+
+    // CLEAR //
+    
 }
