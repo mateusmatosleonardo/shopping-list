@@ -9,6 +9,7 @@
     --bg-dark-light: #333;
     --white: #fff;
     --font-main: 'Poppins', sans-serif;
+    --gray: #ccc;
 }
 
 body{
@@ -39,4 +40,35 @@ body{
     flex: 1;
     height: 40px;
     padding-left: 10px;
+}
+
+.list-items-single{
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #222;
+    color: var(--white);
+    font-family: var(--font-main);
+}
+
+.list-items-single h3{
+    flex: 1;
+    padding: 0 30px;
+}
+
+h3.price{
+    text-align: right;
+    font-size: 16px;
+}
+
+h3.price > span{
+    background-color: var(--white);
+    color: var(--bg-dark-light);
+    padding: 6px 8px;
+    border-radius: 20px;
+}
+
+.total{
+    margin: 20px;
+    color: var(--white);
+    font-family: var(--font-main);
 }
