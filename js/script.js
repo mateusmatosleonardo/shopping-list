@@ -10,4 +10,14 @@ buttonSubmit.onclick = () =>{
         name: nameProduct,
         value: priceProduct
     })
+
+    let listItems = document.querySelector('.list-items')
+    items.map((val)=>{
+        listItems.innerHTML+=`
+        <div class="list-items-single">
+            <h3>`+val.name+`</h3>
+            <h3 class="price"><span>$ `+val.value+`</span></h3>
+        </div><!--list-items-single-->
+        `
+    })
 }
