@@ -12,8 +12,10 @@ buttonSubmit.onclick = () =>{
     })
 
     let listItems = document.querySelector('.list-items')
+    let sum = 0
     listItems.innerHTML = ""
     items.map((val)=>{
+        sum+=parseFloat(val.value) 
         listItems.innerHTML+=`
         <div class="list-items-single">
             <h3>`+val.name+`</h3>
@@ -21,6 +23,10 @@ buttonSubmit.onclick = () =>{
         </div><!--list-items-single-->
         `
     })
+    soma = soma.toFixed(2) // Pegando apenas 2 casas decimais
+
+    let sumProduct = document.querySelector('.total h2')
+    sumProduct.innerHTML = 'R$' + sum
 
     // CLEAR //
     
