@@ -14,3 +14,12 @@
 body{
     background-color: var(--bg-dark-light);
 }
+
+.header{
+    width: 80%;
+    max-width: 1100px;
+    padding: 40px 50px;
+    background-color: var(--white);
+    margin: 20px auto;
+    border-radius: 10px;
+}
