@@ -23,7 +23,7 @@ buttonSubmit.onclick = () =>{
         </div><!--list-items-single-->
         `
     })
-    soma = soma.toFixed(2) // Pegando apenas 2 casas decimais
+    sum = sum.toFixed(2) // Pegando apenas 2 casas decimais
 
     let sumProduct = document.querySelector('.total h2')
     sumProduct.innerHTML = 'R$' + sum
